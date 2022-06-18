@@ -1,5 +1,4 @@
 import React from "react";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
 import TaskItem from "./components/TaskItem";
@@ -25,12 +24,13 @@ const styles = StyleSheet.create({
         backgroundColor: "#E8EAED",
     },
     taskWarapper: {
-        paddingTop: 40,
+        paddingTop: 50,
         paddingHorizontal: 20,
     },
     sectionTitle: {
         fontSize: 24,
         fontWeight: "bold",
+        marginBottom: 20,
     },
     items: {},
 });
