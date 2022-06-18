@@ -1,1 +1,1 @@
-💎 React Native
+☀️ React Native

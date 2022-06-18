@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         width: 30,
         backgroundColor: "#548CFF",
         marginRight: 20,
-        borderRadius: 100,
+        borderRadius: 5,
     },
     itemText: {
         color: "white",
