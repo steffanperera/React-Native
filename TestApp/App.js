@@ -4,24 +4,24 @@ import {StyleSheet, View, Text, Button} from 'react-native';
 const App = () => {
   return (
     <View style={styles.body}>
-      <Text style={styles.text}>Hello World!</Text>
+      <Text style={styles.text}>Hello sssWorld!</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   body: {
-    backgroundColor: "#ffffff",
+    backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
   },
 
-  text : {
+  text: {
     color: '#ff3322',
     fontSize: 20,
     fontStyle: 'italic',
-  }
+  },
 });
 
 export default App;
