@@ -21,7 +21,7 @@ const App = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#E8EAED",
+        backgroundColor: "#1B1A17",
     },
     taskWarapper: {
         paddingTop: 50,
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: "bold",
         marginBottom: 20,
+        color: "white",
     },
     items: {},
 });
