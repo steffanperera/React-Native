@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
 
 const App = () => {
   return (
     <View style={styles.body}>
-      <Text style={styles.text}>Hello sssWorld!</Text>
+      {/* <Text style={styles.text}>Hello World!</Text> */}
+      <Button title="minus ( - )">-</Button>
+      <Text>0</Text>
+      <Button title="plus ( + )">+</Button>
     </View>
   );
 };
