@@ -2,13 +2,10 @@ import {} from 'react';
 import {StyleSheet} from 'react-native';
 
 const AppStyles = StyleSheet.create({
-  layoutStyle: {
+  container: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  textStyle: {
-    fontSize: 60,
-    color: 'green',
   },
 });
 

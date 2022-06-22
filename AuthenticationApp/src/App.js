@@ -1,16 +1,13 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {SafeAreaView, ScrollView, StatusBar, Text, View} from 'react-native';
 import AppStyles from './style/AppStyles';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <ScrollView>
-        <View style={AppStyles.layoutStyle}>
-          <Text style={AppStyles.textStyle}>Hello World</Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <View style={AppStyles.container}>
+      <StatusBar style="auto" />
+      <Text>Open up App.js to start working on your app!</Text>
+    </View>
   );
 };
 
