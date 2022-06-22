@@ -7,7 +7,7 @@ const App = () => {
     <SafeAreaView>
       <ScrollView>
         <View style={AppStyles.layoutStyle}>
-          <Text style={AppStyles.textStyle}>Hello</Text>
+          <Text style={AppStyles.textStyle}>Hello World</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
