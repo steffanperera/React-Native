@@ -1,6 +1,5 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StatusBar, Text, View} from 'react-native';
-import AppStyles from './style/AppStyles';
+import {Text, View, StatusBar, StyleSheet} from 'react-native';
 
 const App = () => {
   return (
@@ -10,5 +9,13 @@ const App = () => {
     </View>
   );
 };
+
+const AppStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 export default App;
